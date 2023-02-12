@@ -19,8 +19,6 @@
   },
   "homepage": "https://github.com/itshmnt/Foodgram#readme",
   "devDependencies": {
-    "@babel/core": "^7.20.12",
-    "babel-plugin-transform-remove-console": "^6.9.4",
     "parcel": "^2.8.3",
     "process": "^0.11.10"
   },
@@ -28,16 +26,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "browserslist": [
+    "defaults and supports es6-module",
+    "maintained node versions"
+  ]
 }
