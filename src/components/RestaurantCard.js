@@ -7,7 +7,7 @@ const RestaurantCard = (props) => {
             <img
                 src={
                 IMG_CDN_URL 
-                + props.vendor.cloudinaryImageId 
+                + props.vendor?.cloudinaryImageId 
                 }
                 alt="vendor_logo" 
             />
